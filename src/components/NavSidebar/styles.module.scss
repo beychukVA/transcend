@@ -1,0 +1,52 @@
+.navList {
+  list-style: none;
+  padding: 45px 26px;
+  width: auto;
+}
+
+.navItem {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+
+  & li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &:not(:first-child) {
+    margin-top: 41px;
+  }
+
+  & svg {
+    fill: #fff;
+  }
+
+  &:hover span {
+    color: #af1f26;
+  }
+  &:hover svg {
+    fill: #af1f26;
+  }
+}
+
+.activeLink {
+  & svg {
+    fill: #af1f26;
+  }
+
+  & span {
+    color: #af1f26;
+  }
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 10px;
+}

@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  top: 45px;
+  left: 0;
+  max-height: 209px;
+  background: #ffffff;
+  border: 1px solid #040707;
+  border-radius: 10px;
+  width: 528px;
+  transition: all 150ms ease;
+  transform: translate(0, 0) scaleY(1);
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 5px;
+    background: none;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-clip: content-box;
+  }
+  //
+  &::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: none;
+  }
+  //overflow: scroll;
+  //   -webkit-transition: max-height 0.3s linear;
+  //   -moz-transition: max-height 0.3s linear;
+  //   transition: max-height 0.3s linear;
+}
+
+// .dropdownWrapper {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 999;
+//   width: 100%;
+//   height: 100%;
+//   //   background: tomato;
+// }
+
+.hidden {
+  transform: translate(0, -50%) scaleY(0);
+}
+
+.active {
+  border: 2px solid #1f50af;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: 0;
+  // background: #f2f2f2;
+}
+
+.customerList {
+  height: 40px;
+  &:hover {
+    background: #efefef;
+  }
+  padding: 0 49px;
+}
+
+.customerItem {
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 220%;
+  color: #040707;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

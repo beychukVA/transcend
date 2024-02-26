@@ -1,0 +1,95 @@
+.forgotPassword {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  padding-top: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 556px;
+  height: 422px;
+  background: #ffffff;
+  padding: 60px 44px 60px 49px;
+  z-index: 5;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #040707;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #040707;
+  margin-bottom: 25px;
+  max-width: 407px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+
+  :not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 210%;
+  color: #040707;
+  text-decoration: none;
+}
+
+.registerDescription {
+  margin-top: auto;
+}
+
+.linkRegister {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 210%;
+  color: #040707;
+  margin-left: 5px;
+}
+
+.button {
+  margin-left: auto;
+  padding-left: 79px;
+  padding-right: 79px;
+}
+
+.img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4;
+  width: 831px;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/images/section-contact-us-img1.jpg");
+}

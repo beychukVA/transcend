@@ -1,0 +1,31 @@
+.header {
+  padding: 30px 30px 20px 30px;
+}
+
+.invoiceNumberContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.invoiceNumber {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  color: #040707;
+}
+
+.closeBtn {
+  line-height: 0;
+  cursor: pointer;
+}
+
+.nameCorporation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #af1f26;
+}

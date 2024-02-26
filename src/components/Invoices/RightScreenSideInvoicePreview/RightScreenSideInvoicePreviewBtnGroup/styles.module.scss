@@ -1,0 +1,41 @@
+.btnGroupContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 26px;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  cursor: pointer;
+
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #040707;
+    margin-left: 8px;
+  }
+}
+
+.editBtn {
+  width: 201px;
+  border: 1px solid #040707;
+  border-radius: 10px;
+  background: #efefef;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #040707;
+  margin-right: 20px;
+}
+
+.downloadBtn {
+  width: 270px;
+  border-radius: 10px;
+}

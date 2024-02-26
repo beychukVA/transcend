@@ -1,0 +1,15 @@
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 20px;
+  background: #040707;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: default;
+}

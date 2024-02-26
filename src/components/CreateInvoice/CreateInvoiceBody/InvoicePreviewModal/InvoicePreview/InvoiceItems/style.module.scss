@@ -1,0 +1,24 @@
+.invoiceItems {
+  margin-bottom: 99px;
+}
+
+.invoiceItemsInner {
+  margin-bottom: 20px;
+}
+
+.finalPriceContainer {
+  display: flex;
+  justify-content: flex-end;
+
+  span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 133%;
+    color: #af1f26;
+
+    &:first-child {
+      margin-right: 115px;
+    }
+  }
+}

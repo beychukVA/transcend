@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  margin-left: 19px;
+}
+
+.personIcon {
+  position: absolute;
+  top: 14px;
+  left: 19px;
+}
+
+.arrowDown {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  transition: all 250ms ease;
+  transform: rotate(0deg);
+}
+
+.arrowUp {
+  transform: rotate(-180deg);
+  top: 7px;
+}

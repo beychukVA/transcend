@@ -1,0 +1,22 @@
+.nav {
+  :not(:first-child) {
+    margin-left: 15px;
+  }
+}
+
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #040707;
+  text-decoration: none;
+  padding-bottom: 11px;
+  padding: 11px 10px 11px 5px;
+
+  &:hover,
+  &:focus {
+    border-bottom: 2px solid #af1f26;
+  }
+}

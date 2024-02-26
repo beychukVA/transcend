@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .invoiceNumber {
+    width: 16px;
+  }
+
+  .invoiceName {
+    width: 245px;
+  }
+
+  .unit {
+    width: 90px;
+  }
+
+  .unitPrice {
+    width: 115px;
+  }
+
+  .total{
+    width: 39px;
+    text-align: end;
+  }
+}
+
+.invoiceContainer {
+  padding: 12px 8px;
+  border-bottom: 1px solid #F1F3F5;
+
+  div {
+    line-height: 0;
+
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 133%;
+      color: #040707;
+    }
+  }
+}

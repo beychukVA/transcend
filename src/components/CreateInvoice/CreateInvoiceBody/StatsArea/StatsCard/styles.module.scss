@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  //   height: 155px;
+  padding: 20px 33px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.count {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
+
+.text {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+}

@@ -1,0 +1,84 @@
+.container {
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #040707;
+}
+
+.inputContainer {
+  margin-top: 40px;
+}
+
+.input {
+  height: 48px;
+  border: 1px solid rgba(4, 7, 7, 0.1);
+  border-radius: 10px;
+  padding: 0 15px;
+
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  color: #000;
+  opacity: 1;
+
+  &::placeholder {
+    color: #000;
+  }
+}
+
+.inputHover {
+  &:hover,
+  &:focus {
+    border-color: #1f50af;
+    outline: none;
+  }
+}
+.customerInfoSubContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.addressInfoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.cityContainer {
+  width: 49%;
+}
+.stateAndZipCodeContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 49%;
+}
+.stateContainer {
+  width: 48%;
+}
+
+.zipCodeContainer {
+  width: 48%;
+}
+
+.billingContainer,
+.shippingContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentDateContainer,
+.paymentAmountContainer,
+.trailerNumberContainer,
+.billContainer {
+  width: 49%;
+}
+
+.customerInfoRightSubContainer {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}

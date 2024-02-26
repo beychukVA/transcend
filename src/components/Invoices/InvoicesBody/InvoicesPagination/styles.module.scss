@@ -1,0 +1,39 @@
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.pageNumbers {
+  margin: 0 15px;
+
+  span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #040707;
+
+    &:first-child {
+      color: #af1f26;
+    }
+
+    &:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
+
+.prev,
+.next {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #040707;
+  cursor: pointer;
+}
+
+.prev {
+  color: #bdbdbd;
+}

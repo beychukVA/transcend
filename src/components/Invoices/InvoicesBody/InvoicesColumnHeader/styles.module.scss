@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccccc;
+}
+
+.invoicesColumnHeader {
+  padding: 10px 20px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+
+    span {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #040707;
+      opacity: 0.4;
+    }
+  }
+}
+
+.numberContainer {
+  width: 100%;
+  max-width: 172px;
+}
+
+.customerContainer {
+  width: 100%;
+  max-width: 300px;
+}
+
+.totalContainer {
+  width: 100%;
+  max-width: 150px;
+}
+
+.updateDataContainer {
+  width: 100%;
+  max-width: 172px;
+}
+
+.createdDataContainer {
+  width: 100%;
+  max-width: 146px;
+}
+
+.actionContainer {
+  width: 100%;
+  max-width: 110px;
+}

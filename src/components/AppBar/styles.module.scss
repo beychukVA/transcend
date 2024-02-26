@@ -1,0 +1,32 @@
+.logo {
+  margin-right: auto;
+}
+
+.dashboardHeader {
+  position: relative !important;
+  padding: 10px 26px !important;
+  background: #fff !important;
+}
+
+.dashboardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  justify-content: flex-start;
+  border: none;
+  padding-bottom: 19px;
+  margin-top: auto;
+}
+
+.container {
+  height: 100vh;
+}
+
+.noPadding {
+  padding: 0 !important;
+}

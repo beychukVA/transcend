@@ -1,0 +1,16 @@
+.searchInput {
+  background: #ffffff;
+  border: 1px solid #040707;
+  border-radius: 10px;
+  padding: 14px 49px;
+  width: 430px;
+  outline: none;
+}
+
+.active {
+  border: 2px solid #1f50af;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+  background: #f2f2f2;
+}

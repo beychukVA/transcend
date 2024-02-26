@@ -1,0 +1,80 @@
+.container {
+  padding-top: 30px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #040707;
+}
+
+.input {
+  background: #ffffff;
+  border: 1px solid rgba(4, 7, 7, 0.1);
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  opacity: 1;
+
+  &:focus,
+  &:hover {
+    border: 1px solid #1f50af;
+  }
+}
+
+.inputWrapper {
+  margin-top: 40px;
+}
+
+.addressDetailContainer {
+  display: flex;
+}
+
+.city {
+  flex: 2;
+}
+
+.state {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.zipCode {
+  margin-left: 15px;
+  flex: 1;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+
+  & :not(:first-child) {
+    margin-left: 20px;
+  }
+}
+
+.button {
+  width: 270px;
+  border-radius: 10px;
+}
+
+.buttonWhite {
+  border: 1px solid #040707;
+  background: #fff;
+  color: #040707;
+}
+
+// input[type="date"]::-webkit-calendar-picker-indicator {
+//   background: transparent;
+//   width: 24px;
+//   height: 24px;
+// }
+// input[type="date"] {
+//   background: url("../../../assets/icons/calendar.svg") #f7f9fc no-repeat 96%
+//     50%;
+// }

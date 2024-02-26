@@ -1,0 +1,121 @@
+.aboutUs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 0 84px 0;
+}
+
+.content {
+  width: 454px;
+  height: 330px;
+  background: #ffffff;
+  z-index: 2;
+  padding: 66px 120px 75px 75px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #040707;
+  margin-bottom: 25px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #040707;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+}
+
+.listItem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 210%;
+  color: #040707;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.arrow {
+  position: relative;
+  width: 24px;
+  margin-right: 24px;
+  border-bottom: 1px solid #af1f26;
+
+  &::before {
+    position: absolute;
+    right: 0;
+    top: -1px;
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #af1f26;
+  }
+}
+
+.images {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.imagesOne {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagesTwo {
+  flex: 3;
+}
+
+.imgOne {
+  min-width: 357px;
+  min-height: 227px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/images/section-tracking-img1.jpg");
+}
+
+.imgTwo {
+  min-width: 357px;
+  min-height: 227px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/images/section-tracking-img2.jpg");
+}
+
+.imgThree {
+  min-width: 716px;
+  min-height: 402px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../assets/images/section-tracking-img3.jpg");
+}

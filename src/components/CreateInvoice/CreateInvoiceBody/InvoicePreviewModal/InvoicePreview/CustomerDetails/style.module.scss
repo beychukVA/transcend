@@ -1,0 +1,158 @@
+.customerDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logoContainer {
+  line-height: 0;
+  width: 195.18px;
+  height: 48.33px;
+  margin-bottom: 13.25px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.customerLocation {
+  width: 98px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+  margin-left: 56px;
+
+  .address,
+  .email,
+  .location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.4372px;
+    line-height: 133%;
+  }
+
+  .address,
+  .email {
+    margin-bottom: 4.17px;
+  }
+
+  .address {
+    color: #7E868C;
+  }
+
+  .email {
+    color: #040707;
+  }
+
+  .location {
+    color: #040707;
+  }
+}
+
+.customerAllPayment {
+  width: 144px;
+  margin-left: 56px;
+
+  span {
+    display: inline-block;
+
+    &:nth-child(1) {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10.4372px;
+      line-height: 133%;
+      color: #AF1F26;
+      margin-bottom: 4.17px;
+    }
+
+    &:nth-child(2) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10.4372px;
+      line-height: 133%;
+      text-transform: uppercase;
+      color: #AF1F26;
+    }
+  }
+}
+
+.customerInvoiceNumber {
+  width: 100%;
+  max-width: 257px;
+  display: flex;
+  flex-direction: column;
+
+  & > span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.9619px;
+    line-height: 133%;
+    color: #040707;
+  }
+}
+
+.invoiceData {
+  margin-bottom: 12px;
+
+  & > span {
+    &:nth-child(1) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10.4372px;
+      line-height: 133%;
+      color: #7E868C;
+      margin-right: 13.84px;
+    }
+
+    &:nth-child(2) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10.4372px;
+      line-height: 133%;
+      color: #040707;
+    }
+  }
+}
+
+.customerInvoiceNumberInner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25.89px;
+}
+
+.customerDetailsComponent,
+.shipperComponent,
+.consigneeComponent {
+  display: flex;
+  flex-direction: column;
+  span {
+    width: 110px;
+
+    &:nth-child(1) {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 10.4372px;
+      line-height: 133%;
+      color: #687076;
+      margin-bottom: 4px;
+    }
+
+    &:nth-child(2),
+    &:nth-child(4) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10.4372px;
+      line-height: 133%;
+      color: #040707;
+    }
+
+    &:nth-child(3) {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10.4372px;
+      line-height: 133%;
+      color: #7E868C;
+    }
+  }
+}
